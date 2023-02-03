@@ -6,18 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projeto Login</title>
     <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
     <main>
-        <section>
+        <section id="login">
             <div id="imagem">
 
             </div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login novamente para acessar sua conta e poder fazer as configurações do seu ambiente</p>
-                <form action="get">
-                    
+                <form action="login.php" method="post">
+                    <label for="iemail">Email</label>
+                    <input type="email" name="email" id="iemail">
+
+                    <label for="isen">Senha</label>
+                    <input type="password" name="sen" id="isen">
+
+                    <input type="submit" value="Entrar">
+                    <input type="submit" value="Esqueci a senha">
                 </form>
             </div>
         </section>
