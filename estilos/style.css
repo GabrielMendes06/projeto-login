@@ -26,19 +26,19 @@ main {
     position: relative;
 }
 
-section#login {
-    transform: translate(-50%, -50%);
+section#login {   
     left: 50%;
     top: 50%;
     position: absolute;
     background-color: white;
-    height: 500px;
+    height: 510px;
     width: 250px;
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.432);
     transition: width 0.5s, heigth 0.5s;
     transition-timing-function: ease;
+    transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem {
@@ -51,7 +51,7 @@ section#login > div#imagem {
 }
 
 section#login > div#formulario {
-    padding: 10px;
+    padding: 7px;
     display: block;
 }
 
@@ -63,3 +63,64 @@ section#login > div#formulario > h1{
 section#login > div#formulario > p{
     font-size: 0.8em;
 }
+
+section#login > div#formulario > form{
+    font-size: 0.7em;
+}
+
+form > div > input[type=submit] {
+    display: block;
+    width: 100%;
+    height: 40px;
+    background-color: #228f4f;
+    color: white;
+    border-radius: 10px;
+    margin: 2px 0px 0px;
+    border: 1px solid #10773b;
+}
+
+form > div > input[type=submit]:hover{
+    background-color: #1a6138;
+    cursor: pointer;
+}
+
+form > div > input[type=submit]#esen{
+    background-color: #3da8a8;
+    border: 1px solid #147777;
+}
+
+form > div > input[type=submit]#esen:hover{
+    background-color: #147777;
+}
+
+div.campo > span {
+    width: 40px;
+    padding: 7px;
+}
+
+div.campo > input{   
+    font-size: 1.3em;
+    width: calc(100% - 44px);
+    height: 100%;
+    border: none;
+    border-radius: 0px 10px 10px 0px;
+    padding: 5px 12px 5px 0px;
+    transform: translateY(-7px);
+}
+
+form > div.campo{
+    background-color: #5986e9;
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    height: 40px;
+    margin: 2px 0px 2px 0px;
+    border: 1px solid #464a9e;
+}
+
+.campo > label{
+    display: none;
+}
+
+
+
