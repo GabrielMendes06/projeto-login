@@ -39,6 +39,7 @@ section#login {
     transition: width 0.5s, heigth 0.5s;
     transition-timing-function: ease;
     transform: translate(-50%, -50%);
+    min-height: 325px;
 }
 
 section#login > div#imagem {
@@ -104,7 +105,7 @@ div.campo > input{
     height: 100%;
     border: none;
     border-radius: 0px 10px 10px 0px;
-    padding: 5px 12px 5px 7px;
+    padding: 5px 12px 5px px;
     transform: translateY(-7px);
 }
 
