@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --cor0: #779EE6;
+    --cor1: #6C72F0;
+    --cor2: #A08BD9;
+    --cor3: #7838A6;
+    --cor4: #DE9AE6;
+}
